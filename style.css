@@ -1,0 +1,149 @@
+h1 {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+  background-color: antiquewhite;
+}
+
+.npl {
+  text-align: center;
+  background-color: aquamarine;
+}
+.download-btn {
+  display: inline-block;
+  text-align: center;
+  background-color: #4caf50; /* Green background */
+  color: white; /* White text */
+  font-size: 16px;
+  padding: 12px 24px; /* Padding around the text */
+  text-align: center;
+  text-decoration: none; /* Remove underline */
+  border-radius: 80px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow */
+  transition: background-color 0.3s, transform 0.2s; /* Smooth transition for hover effects */
+}
+
+.download-btn:hover {
+  background-color: #4909dd; /* Darker green on hover */
+  transform: scale(1.05); /* Slight zoom effect */
+}
+
+.download-btn:active {
+  background-color: #388e3c; /* Even darker green when clicked */
+  transform: scale(0.98); /* Slight shrink effect */
+}
+.skills {
+  background-color: #56a7a086;
+  text-align: center;
+}
+.table {
+  display: inline-block;
+  background-color: #4caf50;
+}
+.skills-description {
+  text-align: left;
+}
+
+/* General styling for the section */
+section {
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the heading */
+h3 {
+  text-align: center;
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Basic form styling */
+.form p {
+  margin-bottom: 15px;
+}
+
+/* Label styling */
+.form label {
+  font-size: 16px;
+  color: #555;
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Input fields and textarea */
+.form input,
+.form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+/* Input specific styles */
+.form input[type="email"],
+.form input[type="name"],
+.form input[type="number"],
+.form input[type="date"],
+.form input[type="url"] {
+  background-color: #973030;
+}
+
+/* Textarea styling */
+.form textarea {
+  resize: vertical;
+  font-family: Arial, sans-serif;
+}
+
+/* Button styling */
+.form button {
+  padding: 12px 20px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.form button:hover {
+  background-color: #058249;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+  section {
+    width: 80%;
+  }
+
+  .form input,
+  .form textarea {
+    font-size: 14px;
+  }
+}
+.massage {
+  background-color: rgb(147, 136, 136);
+}
+.name {
+  background-color: rgb(147, 136, 136);
+}
+.email {
+  background-color: rgb(147, 136, 136);
+}
+.number {
+  background-color: rgb(147, 136, 136);
+}
+.linkedin {
+  background-color: rgb(147, 136, 136);
+}
+.date {
+  background-color: rgb(147, 136, 136);
+}
