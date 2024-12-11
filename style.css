@@ -34,13 +34,10 @@ h3 {
   transform: scale(0.98); /* Slight shrink effect */
 }
 .skills {
-  background-color: #56a7a086;
+  background-color: #7c56a786;
   text-align: center;
 }
-.table {
-  display: inline-block;
-  background-color: #4caf50;
-}
+
 .skills-description {
   text-align: left;
 }
@@ -57,7 +54,7 @@ section {
 
 /* Styling for the heading */
 h3 {
-  text-align: center;
+  text-align: left;
   font-size: 24px;
   color: #333;
   margin-bottom: 20px;
