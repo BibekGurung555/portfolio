@@ -1,0 +1,40 @@
+.form {
+  text-align: center;
+  text-decoration-color: blue;
+  color: rgb(145, 15, 15);
+}
+
+.address {
+  text-align: center;
+}
+#textarea {
+  background-color: aqua;
+}
+.button {
+  background-color: #04aa6d;
+  border: blueviolet;
+  color: white;
+  padding: 16px 32px;
+  color: red;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.country {
+  color: red;
+  background-color: yellow;
+}
+.option {
+  color: #04aa6d;
+  background-color: violet;
+}
+.text {
+  background-color: aquamarine;
+}
+#submit:active {
+  background-color: aqua;
+  transform: scale(0.98);
+}
+#submit:hover {
+  background-color: #04aa6d;
+  transform: scale(1.05);
+}

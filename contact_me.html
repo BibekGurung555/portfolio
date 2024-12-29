@@ -3,28 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style_me.css" />
     <title>Portfolio</title>
   </head>
   <body>
     <br />
     <br />
     <hr />
-    <form action="">
+    <form class="form" action="">
       <label for="user"> Name</label>
-      <input type="text" id="user" />
+      <input class="text" id="user" />
       <br />
       <br />
 
-      <label for="address">Address</label>
-      <textarea id="address" rows="3"></textarea>
+      <label class="address">Address</label>
+      <textarea id="textarea" rows="3"></textarea>
       <br />
       <br />
 
       <!-- radio button -->
 
-      <div>
-        Gender:
-
+      <div class="button">
         <input name="Gender" type="radio" id="male" />
 
         <label for="male">Male</label>
@@ -46,9 +45,9 @@
       </p>
 
       <!-- drop down select -->
-      <p>
+      <p class="country">
         <label>Country</label>
-        <select>
+        <select class="option">
           <option>Nepal</option>
           <option>China</option>
           <option>India</option>
@@ -56,7 +55,7 @@
         </select>
       </p>
 
-      <button>Submit</button>
+      <button id="submit">Submit</button>
 
       <hr />
     </form>
